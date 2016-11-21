@@ -1,7 +1,3 @@
-%Institution: Australian National Univeristy
-%Author: Ruoxiang Wen
-%Course Code: Computer Vision
-%Activity: Lab1
 function result = my_Rotation( img,angle )              %function definition
 img=double(img);
 lenIrow=size(img,1);                                    %get length of row

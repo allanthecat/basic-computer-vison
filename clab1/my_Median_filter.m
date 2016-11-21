@@ -1,7 +1,3 @@
-%Institution: Australian National Univeristy
-%Author: Ruoxiang Wen
-%Course Code: Computer Vision
-%Activity: Lab1
 function output_image = my_Median_filter(img, h)
 lenHrow =size(h,1);                                 %get the row of filter
 lenHcol =size(h,2);                                 %get the col of filter

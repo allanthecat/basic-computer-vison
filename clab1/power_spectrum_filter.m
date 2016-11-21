@@ -1,7 +1,3 @@
-%Institution: Australian National Univeristy
-%Author: Ruoxiang Wen
-%Course Code: Computer Vision
-%Activity: Lab1
 clc,clear
 f = [1 ,1,1; 1,1,1; 1,1,1];
 F=fft2(f, 256,256);
