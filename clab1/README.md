@@ -1,0 +1,2 @@
+#Task-1: Image denoise and filtering:
+The face image with class of uint8 is converted to greyscale then resized to 512 x512 resolution. Original image, image with Gaussian noise (zero means & 10 standard variation) and salt and pepper noise (density 0.1) are shown. Noise is added by using Matlab built-in function imnoise. Notice since the image is in uint8 class and imnoise function converts uint8 values to doubles before applying the variance, so the standard deviation of Gaussian need to be scaled down by 255. 
